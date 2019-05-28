@@ -10,9 +10,9 @@ const App = () => {
       <div className="calculator-top">
         <CalculatorDisplay dsiplayStyle="display" text="0" />
       </div>
-      <div className="left">
-        <ActionButton operators="clear" text="clear" />
-        <div className="numpad">
+      <div className="numpad">
+        <div className="the-numbers">
+          <ActionButton operators="clear" text="clear" />
           <div className="firstRow">
             <NumberButton buttonStyle="number" text="7" />
             <NumberButton buttonStyle="number" text="8" />
@@ -28,16 +28,16 @@ const App = () => {
             <NumberButton buttonStyle="number" text="2" />
             <NumberButton buttonStyle="number" text="3" />
           </div>
-          <div className="zero">
-            <NumberButton buttonStyle="number" text="0" />
+          <div className="zero-container">
+            <NumberButton buttonStyle="zero" text="0" />
           </div>
-          <div className="operators">
-            <ActionButton operators="number" text="÷" />
-            <ActionButton operators="number" text="x" />
-            <ActionButton operators="number" text="-" />
-            <ActionButton operators="number" text="+" />
-            <ActionButton operators="number" text="=" />
-          </div>
+        </div>
+        <div className="operators">
+          <ActionButton operators="math" text="÷" />
+          <ActionButton operators="math" text="x" />
+          <ActionButton operators="math" text="-" />
+          <ActionButton operators="math" text="+" />
+          <ActionButton operators="math" text="=" />
         </div>
       </div>
     </div>
