@@ -1,0 +1,11 @@
+/* main calc wrapper */
+
+.calculator-wrap {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px dashed green; */
+  margin: 0px;
+  padding: 0px;
+  width: 450px;
+  height: 600px;
+}

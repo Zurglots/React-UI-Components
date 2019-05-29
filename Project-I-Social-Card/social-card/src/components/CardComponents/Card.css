@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+.CardBanner {
+  object-fit: cover;
+  width: 80%;
+}
